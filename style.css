@@ -1,0 +1,39 @@
+body{
+    background-color: #328348;
+    height: 100vh;
+}
+
+.logo1{
+    margin-left: 33%;
+    margin-top: 3%;
+    height: 50px;
+}
+
+.logo{
+    height: 400%;
+}
+
+.col2{
+    align-content: center;
+}
+
+h1{
+    color: antiquewhite;
+    position: absolute;
+width: 378.89px;
+height: 55px;
+left: calc(50% - 378.89px/2 + 19.66px);
+top: calc(50% - 55px/2 - 324.37px);
+
+font-family: 'Adamina';
+/* font-style: normal;
+font-weight: 400;
+font-size: 42.7778px; */
+line-height: 55px;
+/* identical to box height, or 129% */
+
+text-align: center;
+letter-spacing: 16.8056px;
+
+
+}
