@@ -1,0 +1,114 @@
+body{
+    background-color: #328348;
+    height: 100vh;
+}
+
+.logo1{
+    position: absolute;
+    margin-left: 36%;
+    margin-top: 3%;
+    height: 34px;
+}
+
+
+.logo{
+    height: 500px;
+    margin-top: 25%;
+}
+
+
+.container{
+    display: flex;
+    flex: 1;
+}
+
+.col{
+    display: flex;
+    flex: 0.5;
+    min-height: 100%;
+}
+
+.col2{
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+.logo2{
+    margin-top: 25%;
+    height: 50px;
+}
+
+.col2 p{
+    margin-top: 2%;
+    margin-left: 40%;
+    font-size: 40px;
+    color: orange;
+    font:  sans-serif;
+}
+
+.col2 h5{
+   margin-left: 50%; 
+}
+
+.col2 input{
+    margin-top: 10%;
+    padding: 5px;
+    border: 2px solid;
+    border-radius: 0.6em;
+    margin: 0 25%;
+    text-align: center;
+}
+
+.col2 button{
+    margin-bottom: 30%;
+    border: 3px sandybrown;
+    font-family: Montserrat;
+    font-weight: 900;
+    border-radius: 1em;
+    padding: 9px;
+    margin: 0 25%;
+    cursor: grab;
+    color: whitesmoke
+    
+}
+
+button{
+    display: block;
+}
+
+.login{
+    background-color: blue ;
+    transition: box-shadow 300ms ease-in-out, color 350ms ease-in-out;
+}
+.login:hover{
+    color: whitesmoke;
+    box-shadow: 0 0 30px 30px black inset ;
+}
+
+.sign{
+    background-color: red;
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+.sign:hover{
+    color: yellowgreen;
+    box-shadow: 0 0 30px 30px black inset;
+}
+h1{
+    color: antiquewhite;
+    position: absolute;
+width: 378.89px;
+height: 55px;
+left: calc(50% - 378.89px/2 + 19.66px);
+top: calc(50% - 55px/2 - 324.37px);
+
+font-family: 'Adamina';
+/* font-style: normal;
+font-weight: 400;
+font-size: 42.7778px; */
+line-height: 55px;
+/* identical to box height, or 129% */
+
+text-align: center;
+letter-spacing: 16.8056px;
+}
